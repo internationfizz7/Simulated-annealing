@@ -1,5 +1,5 @@
 # Simulated-annealing
-This is a simulated annealing(SA) algorithm for the EDA floorplan issue
+This is a wirelength driven detailed placement algorithm for the EDA floorplan issue
 
 For usage
 You can use make to re-compile to obtain the executable file SA_N26124963
