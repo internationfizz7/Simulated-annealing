@@ -624,7 +624,7 @@ void NETLIST::FP3(){//先用0.3G做各種operation的比例嘗試，選出最好
 	Packing(&btree_current);
 	double ini_a=((double)pow(btree_current.R-R_star,2)/(double)btree_current.Area); //initial alpha
 	alpha=ini_a;
-	int turn=5; ///增加數據量用這個變數;
+	const int turn=5; ///增加數據量用這個變數;
 	int hit[turn];
 	int lab[turn][4]={{0,6,7,8},{7,8,0,6},{0,4,5,8},{5,8,0,4},{0,3,4,6}};
 	int highest=-1;
@@ -1089,7 +1089,7 @@ void NETLIST::FP4(){//先用0.3G做各種operation的比例嘗試，選出最好
 	Packing(&btree_current);
 	double ini_a=((double)pow(btree_current.R-R_star,2)/(double)btree_current.Area); //initial alpha
 	alpha=ini_a;
-	int turn=5; ///增加數據量用這個變數;
+	const int turn=5; ///增加數據量用這個變數;
 	int hit[turn];
 	int lab[turn][4]={{0,6,7,8},{7,8,0,6},{0,4,5,8},{5,8,0,4},{0,3,4,6}};
 	int highest=-1;
